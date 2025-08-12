@@ -1,7 +1,7 @@
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toogle'),
-      navClose = document.getElementById('nav-close')
+      navClose = document.getElementById('nav-close');
 
 /* Menu show */
 if(navToggle){
@@ -29,12 +29,12 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 
 /*=============== ADD BLUR HEADER ===============*/
 const blurHeader = () =>{
-   const header = document.getElementById('header')
+   const header = document.getElementById('header');
    // Add a class if the bottom offset is greater than 50 of the viewport
-   this.scrollY >= 50 ? header.classList.add('blur-header') 
-                      : header.classList.remove('blur-header')
+   this.scrollY >= 50 ? header.classList.add('blur-header')
+                      : header.classList.remove('blur-header');
 }
-window.addEventListener('scroll', blurHeader)
+window.addEventListener('scroll', blurHeader);
 
 /*=============== SHOW SCROLL UP ===============*/ 
 
