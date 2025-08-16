@@ -588,3 +588,17 @@ img {
     top: 17rem;
     left: 9rem;
 }
+
+/*========== SCROLL BAR ==========*/
+::-webkit-scrollbar{
+    width: 0.6rem;
+    background-color: hsl(28, 12%, 15%);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: hsl(28, 12%, 25%);
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: hsl(28, 12%, 35%);
+}
