@@ -680,10 +680,14 @@ img {
     }
 
     .home__container,
-    .new__container,
     .about__container,
     .visit__content{
         grid-template-columns: 350px;
+        justify-content: center;
+    }
+
+    .new__container{
+        grid-template-columns: 500px;
         justify-content: center;
     }
 
